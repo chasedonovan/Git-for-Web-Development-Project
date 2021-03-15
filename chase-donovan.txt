@@ -1,0 +1,64 @@
+https://codepen.io/chasedonovan/pen/JjbxPyg
+
+    1. What is Semantic HTML? It reinforces the meaning of content on a web page, rather than merely defining its appearance.
+    2. What is HTML used for? structure a web page and its content
+    3. What is an attribute and where do we put it? HTML attributes provide additional information about HTML elements.
+    4. What is the h1 tag used for? How many times should I use it on a page? Define a heading, once
+    5. Name two tags that have required attributes: img, link
+    6. What do we put in the head of our HTML document? <header></header>
+    7. What is an id? a specific tag/name for an HTML element 
+    8. What elements can I add an id to? any one element
+    9. How many times can I use the same id on a page? once
+    10. What is a class? a tag used to select an alement
+    11. What elements can I add a class to? any
+    12. How many times can I use the same class on a page? 1
+    13. How do I get my link to open in a new tab? set the target attribute to "_blank"
+    14. What is the alt attribute in the image tag used for? specifies an alternate text for an image, if the image cannot be displayed.
+    15. How do I reference an id? #
+    16. What is the difference between a section and a div?<section> means that the content inside is grouped (i.e. relates to a single theme), and should appear as an entry in an outline of the page. <div> , on the other hand, does not convey any meaning, aside from any found in its class
+    17. What is CSS used for? style/edit the elements in html
+    18. How to we select an element? Example - every h2 on the page h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one:A class is not unique and applied to multiple elements, where id is for one element.
+    20. How do we select classes in CSS? ."class"
+    21. How do we select a p element with a single class of “human””? .human {}
+    22. What is a parent child selector? When would this be useful? The ("parent > child") selector selects all elements that are a direct child of the specified element.
+    23. How do you select all links within a div with the class of sidebar?
+    24. What is a pseudo selector? A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to change a button's color when the user's pointer hovers over it
+    25. What do we use the change the spacing between lines? Use the line-height
+    26. What do we use to change the spacing between letters?Use the letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform
+    28. How do I add a 1px border around my div that is dotted and black?div {
+        border: dotted 1px black;
+      }
+    29. How do I select everything on the page? *
+    30. How do I write a comment in CSS? // - single line comment; /**/ - block line comment
+    31. How do I find out what file I am in, when I am using the command line? in the terminal, you use the "ls" command
+    32. Using the command line - how do I see a list of files/folders in my current folder? The "pwd" command
+    33. How do I remove a file via the command line? Why do I have to be careful with this? you run "del" command with the name of the file to be deleted
+    34. Why should I use version control? to manage files and keep track of any and all changes made by team members
+    35. How often should I commit to github?every one to five hours
+    36. What is the command we would use to push our repo up to github? git push
+    37. Walk me through Lambda's git flow. 
+- Create YOUR OWN version of Repo --- (Fork)
+        Add your TL as collaborator
+        on GitHub:
+        Settings -> Collaborators -> Add Collaborator (use your TL's handle)
+        (I'd suggest grabbing the invite tag and DM it to your TL on Slack at this point)
+        Clone YOUR Repo
+        back on your machine:
+        git clone <your-repo-address>
+        Create a branch (the one you are going to be working on)
+        cd <repo directory>
+        git checkout -b 'firstname-lastname'
+        Push your new branch up to GitHub and make all future pushes to that branch
+        git push -u origin firstname-lastname
+        on GitHub:
+        Compare & Pull Request -> Base: YOUR MASTER (Not the Lambda Master)
+        compare fork: YOUR FORK
+        Add your TL as a reviewer on the Pull Request
+        On the 'Open a Pull Request' page click on Reviewers. If your TL has accepted your invite, then you should be able to select them here. If not, then they haven't accepted the invite, and come back later...
+        Your TL will merge the work into YOUR Master fork when they have reviewed and approved it.
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    -block will always be on a new line where the inline element will aways be on the same line
